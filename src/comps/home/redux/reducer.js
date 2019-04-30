@@ -2,7 +2,7 @@ __devMode__&& console.log('src/comps/home/redux/reducer')
 
 export default name=> (val=
   {
-    show: false
+    show: true
   }, act)=>
 {
   switch (act.type) {

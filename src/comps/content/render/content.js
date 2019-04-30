@@ -4,6 +4,13 @@ import React from 'react'
 import withState from '../../../hocs/state'
 import reducer from '../redux/reducer'
 import style from '../style/content.css'
+import store from '../../../redux/store'
+import {contentSet} from '../redux/actions'
+
+const init= name=> init=>
+{
+  init.children&& store.dispatch(contentSet(name)(init.children))
+}
 
 const inst= name=> state=>
 (
@@ -15,4 +22,4 @@ const inst= name=> state=>
   </div>
 )
 
-export default withState()(inst)(reducer)
+export default withState(init)(inst)(reducer)

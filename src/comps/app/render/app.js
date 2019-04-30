@@ -7,6 +7,7 @@ import Content from '../../content/render/content'
 import SayHello from '../../sayHello/render/sayHello'
 import Say from '../../say/render/say'
 import Footer from '../../footer/render/footer'
+import Home from '../../home/render/home'
 import style from '../style/app.css'
 import reducer from '../redux/reducer'
 import {appSetShow} from '../redux/actions'
@@ -29,7 +30,9 @@ const inst= name=> state=>
     <Posts name='hey2' time={5000}/>
     <div className={`${style.appClear}`}/>
     <Header name='header1'/>
-    <Content name='content1'/>
+    <Content name='content1'>
+      <Home name='home1'/>
+    </Content>
     <Footer name='footer1'/>
   </div>
 )
