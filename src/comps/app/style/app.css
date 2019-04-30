@@ -1,0 +1,9 @@
+.noneSelectable
+{
+  user-select: none;
+}
+
+.clear
+{
+  clear: both;
+}
