@@ -8,8 +8,8 @@ import style from '../style/content.css'
 const inst= name=> state=>
 (
   state.foo.show&&
-  <div className= {`${style.placeholder} ${style.flexColumn1}`}>
-    <div className={`${style.flexRow1}`}>
+  <div className= {`${style.contentPlaceholder} ${style.contentFlexColumn1}`}>
+    <div className={`${style.contentFlexRow1}`}>
       {state.foo.children}
     </div>
   </div>

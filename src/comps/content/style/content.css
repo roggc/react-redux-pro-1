@@ -1,28 +1,22 @@
-.placeholder
+.contentPlaceholder
 {
-  background-color: grey;
   border-radius: 5px;
+  background-color: grey;
   margin: 5px;
   padding: 10px;
-  height: 300px;
-  font-family: sans-serif;
   color: white;
+  height: 300px;
 }
 
-.flexColumn1
+.contentFlexColumn1
 {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.flexRow1
+.contentFlexRow1
 {
   display: flex;
   justify-content: center;
-}
-
-.flexItem1
-{
-  flex-shrink: 1;
 }

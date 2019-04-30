@@ -1,9 +1,10 @@
-.noneSelectable
+.appGenerics
 {
   user-select: none;
+  font-family: sans-serif;
 }
 
-.clear
+.appClear
 {
   clear: both;
 }

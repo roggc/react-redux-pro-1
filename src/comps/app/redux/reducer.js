@@ -4,8 +4,7 @@ import * as types from './types'
 
 export default name=> (val=
   {
-    show: false,
-    message: 'app'
+    show: false
   }, act)=>
 {
   switch (act.type) {
